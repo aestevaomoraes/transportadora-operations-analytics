@@ -119,7 +119,9 @@ transportadora-operations-analytics
 
 # 🔗 Dashboard Online
 
-[Link público do dashboard será disponibilizado nesta seção.](https://datastudio.google.com/reporting/09107122-bc34-4042-b1ea-26d81781f1ef)
+Acesse a versão interativa do dashboard:
+
+👉 [Visualizar Dashboard no Looker Studio](https://datastudio.google.com/reporting/09107122-bc34-4042-b1ea-26d81781f1ef)
 
 ---
 
