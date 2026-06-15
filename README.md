@@ -63,6 +63,7 @@ A camada SQL foi utilizada para preparação, agregação e modelagem dos dados 
 - Total de Viagens
 - Margem Operacional Consolidada
 
+
 ## Análises Operacionais
 
 - Receita por Região
@@ -70,6 +71,14 @@ A camada SQL foi utilizada para preparação, agregação e modelagem dos dados 
 - Top 5 Motoristas
 - Top 5 Destinos
 - Evolução Temporal dos Resultados
+
+
+## 📈 Resultados Obtidos
+
+- Receita Total: R$ 1,57 milhão
+- Lucro Operacional: R$ 1,48 milhão
+- Margem Operacional: 94,2%
+- Total de Viagens: 26
 
 ---
 
