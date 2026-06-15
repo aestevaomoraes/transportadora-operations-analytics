@@ -99,11 +99,14 @@ A camada SQL foi utilizada para preparação, transformação e agregação dos 
 
 ---
 
-# 📈 Principais Resultados
+## Resultados Financeiros
 
 - Receita Total: **R$ 1,57 milhão**
 - Lucro Operacional: **R$ 1,48 milhão**
 - Margem Operacional Consolidada: **94,2%**
+
+## Resultados Operacionais
+
 - Total de Viagens Monitoradas: **26**
 
 ---
