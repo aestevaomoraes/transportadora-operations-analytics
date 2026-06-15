@@ -25,6 +25,8 @@ O objetivo deste projeto é consolidar essas informações em uma solução anal
 
 # 🏗️ Arquitetura da Solução
 
+![Arquitetura](docs/arquitetura.png)
+
 ```text
 Fonte de Dados (CSV)
         ↓
