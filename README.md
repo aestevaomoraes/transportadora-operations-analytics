@@ -1,8 +1,23 @@
 # 🚚 Transportadora Operations Analytics
 
-Dashboard executivo para análise operacional de uma transportadora, desenvolvido com PostgreSQL (Neon), SQL Analytics e Looker Studio.
+Projeto de Analytics desenvolvido para simular o monitoramento operacional de uma transportadora utilizando PostgreSQL (Neon), SQL Analytics e Looker Studio.
 
-O projeto demonstra a construção de uma solução analítica completa, desde a modelagem dos dados até a criação de indicadores estratégicos para apoio à tomada de decisão.
+A solução demonstra a construção de uma camada analítica completa, desde a modelagem dos dados até a geração de indicadores estratégicos para apoio à tomada de decisão.
+
+---
+
+# 📋 Resumo Executivo
+
+Este projeto foi desenvolvido com o objetivo de transformar dados operacionais em informações estratégicas para análise de desempenho logístico e financeiro.
+
+A solução combina:
+
+- PostgreSQL (Neon) para armazenamento e processamento dos dados
+- SQL Analytics para geração de métricas, KPIs e insights
+- Looker Studio para construção de dashboards executivos
+- Git e GitHub para documentação e versionamento
+
+Além do dashboard executivo, o projeto inclui uma coleção de análises exploratórias desenvolvidas diretamente em SQL, permitindo investigar padrões operacionais, financeiros e logísticos.
 
 ---
 
@@ -29,7 +44,7 @@ O objetivo deste projeto é consolidar essas informações em uma solução anal
 ![Arquitetura](docs/arquitetura.png)
 
 ```text
-Fonte de Dados (CSV)
+Sistema Operacional de Transportes
         ↓
 PostgreSQL (Neon)
         ↓
@@ -44,12 +59,22 @@ A camada SQL foi utilizada para preparação, transformação e agregação dos 
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+# 🛠️ Stack Tecnológica
 
-- PostgreSQL
-- Neon Database
+## Banco de Dados
+
+- PostgreSQL (Neon)
+
+## Linguagem
+
 - SQL
+
+## Business Intelligence
+
 - Looker Studio
+
+## Versionamento
+
 - Git
 - GitHub
 
@@ -111,6 +136,11 @@ Durante o desenvolvimento deste projeto foram aplicados conceitos de:
 - Análise Exploratória de Dados
 - Fundamentos de Analytics Engineering
 - Versionamento com Git e GitHub
+- Window Functions (LAG, RANK, SUM OVER)
+- Análise Temporal
+- Desenvolvimento de KPIs Operacionais
+- SQL para Business Analytics
+- Análise de Performance Operacional
 
 ---
 
@@ -123,7 +153,15 @@ transportadora-operations-analytics
 │
 ├── sql
 │   ├── create_table.sql
+│   ├── insert_data.sql
 │   └── dashboard_view.sql
+│
+├── sql_analysis
+│   ├── 01_receita_por_regiao.sql
+│   ├── 02_lucro_por_regiao.sql
+│   ├── 03_top_motoristas.sql
+│   ├── ...
+│   └── 15_top_rotas_por_receita.sql
 │
 ├── dashboard
 │   ├── dashboard.png
@@ -135,6 +173,39 @@ transportadora-operations-analytics
 
 ---
 
+# 🔬 Análises Exploratórias em SQL
+
+Além do dashboard executivo, o projeto inclui uma coleção de análises desenvolvidas diretamente no PostgreSQL para investigar padrões operacionais, financeiros e logísticos.
+
+Todas as consultas foram documentadas contendo:
+
+- Objetivo da análise
+- Perguntas de negócio respondidas
+- Técnicas SQL utilizadas
+- Principais insights encontrados
+
+## Consultas Analíticas
+
+| Análise | Descrição |
+|----------|------------|
+| [01_receita_por_regiao.sql](sql_analysis/01_receita_por_regiao.sql) | Receita total por região |
+| [02_lucro_por_regiao.sql](sql_analysis/02_lucro_por_regiao.sql) | Lucro operacional por região |
+| [03_top_motoristas.sql](sql_analysis/03_top_motoristas.sql) | Ranking dos motoristas com melhor desempenho |
+| [04_top_destinos.sql](sql_analysis/04_top_destinos.sql) | Destinos com maior geração de receita |
+| [05_receita_por_tipo_carga.sql](sql_analysis/05_receita_por_tipo_carga.sql) | Receita por tipo de carga |
+| [06_lucro_medio_viagem.sql](sql_analysis/06_lucro_medio_viagem.sql) | Lucro médio por viagem |
+| [07_receita_por_km.sql](sql_analysis/07_receita_por_km.sql) | Receita por quilômetro rodado |
+| [08_analise_temporal.sql](sql_analysis/08_analise_temporal.sql) | Evolução temporal da receita e lucro |
+| [09_analise_crescimento_mensal.sql](sql_analysis/09_analise_crescimento_mensal.sql) | Crescimento mensal utilizando Window Functions |
+| [10_ranking_rotas_lucrativas.sql](sql_analysis/10_ranking_rotas_lucrativas.sql) | Ranking das rotas mais lucrativas |
+| [11_ranking_motoristas.sql](sql_analysis/11_ranking_motoristas.sql) | Ranking de motoristas utilizando Window Functions |
+| [12_analise_margem_operacional.sql](sql_analysis/12_analise_margem_operacional.sql) | Margem operacional consolidada |
+| [13_receita_acumulada.sql](sql_analysis/13_receita_acumulada.sql) | Receita acumulada ao longo do tempo |
+| [14_lucro_acumulado.sql](sql_analysis/14_lucro_acumulado.sql) | Lucro acumulado ao longo do tempo |
+| [15_top_rotas_por_receita.sql](sql_analysis/15_top_rotas_por_receita.sql) | Rotas com maior geração de receita |
+
+---
+
 # 📸 Dashboard
 
 ![Dashboard Executivo](dashboard/dashboard.png)
@@ -143,16 +214,32 @@ transportadora-operations-analytics
 
 # 🔗 Dashboard Online
 
-Devido às restrições de compartilhamento do conector utilizado no Looker Studio, a versão pública do dashboard não está disponível para acesso anônimo.
+Devido às restrições de compartilhamento do conector utilizado no Looker Studio, a versão pública do dashboard requer autenticação em conta Google.
 
 Para avaliação do projeto, consulte:
 
 - 📸 Screenshot do dashboard disponível neste README
 - 📄 Versão PDF disponível na pasta `dashboard`
-- 🗄️ Scripts SQL disponíveis na pasta `sql`
+- 🗄️ Scripts SQL disponíveis nas pastas `sql` e `sql_analysis`
 
+Caso deseje visualizar a versão online, utilize o link abaixo com uma conta Google autenticada:
 
 👉 [Visualizar Dashboard no Looker Studio](https://datastudio.google.com/reporting/09107122-bc34-4042-b1ea-26d81781f1ef)
+
+---
+
+# ✅ Conclusão
+
+Este projeto demonstra a construção de uma solução analítica ponta a ponta, abrangendo:
+
+- Modelagem de dados
+- Desenvolvimento de consultas SQL analíticas
+- Criação de Views para consumo analítico
+- Construção de KPIs operacionais
+- Desenvolvimento de dashboard executivo
+- Documentação técnica e versionamento
+
+A combinação entre análises SQL e visualizações executivas permite transformar dados operacionais em informações estratégicas para apoio à tomada de decisão.
 
 ---
 
