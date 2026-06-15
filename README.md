@@ -2,7 +2,7 @@
 
 Dashboard executivo para análise operacional de uma transportadora, desenvolvido com PostgreSQL (Neon), SQL Analytics e Looker Studio.
 
-O projeto foi criado para transformar dados operacionais em indicadores estratégicos, permitindo monitorar receitas, lucratividade, desempenho operacional e eficiência logística por região, motorista e destino.
+O projeto demonstra a construção de uma solução analítica completa, desde a modelagem dos dados até a criação de indicadores estratégicos para apoio à tomada de decisão.
 
 ---
 
@@ -10,12 +10,13 @@ O projeto foi criado para transformar dados operacionais em indicadores estraté
 
 Empresas de transporte geram diariamente grandes volumes de dados relacionados a viagens, custos, receitas e operações logísticas.
 
-O objetivo deste projeto é consolidar essas informações em uma solução analítica capaz de apoiar a tomada de decisão por meio de indicadores de desempenho (KPIs) e análises visuais.
+O objetivo deste projeto é consolidar essas informações em uma solução analítica capaz de transformar dados operacionais em informações estratégicas, permitindo o acompanhamento do desempenho financeiro e operacional por meio de indicadores e análises visuais.
 
-### Principais perguntas de negócio respondidas
+## Principais perguntas de negócio respondidas
 
 - Qual a receita total gerada pelas operações?
 - Qual o lucro operacional obtido?
+- Qual a margem operacional consolidada?
 - Quais regiões apresentam melhor desempenho?
 - Quais motoristas geram maior resultado financeiro?
 - Quais destinos concentram maior volume de receita?
@@ -39,7 +40,7 @@ Looker Studio
 Dashboard Executivo
 ```
 
-A camada SQL foi utilizada para preparação, agregação e modelagem dos dados antes da construção do dashboard.
+A camada SQL foi utilizada para preparação, transformação e agregação dos dados antes da construção do dashboard executivo.
 
 ---
 
@@ -63,7 +64,6 @@ A camada SQL foi utilizada para preparação, agregação e modelagem dos dados 
 - Total de Viagens
 - Margem Operacional Consolidada
 
-
 ## Análises Operacionais
 
 - Receita por Região
@@ -72,13 +72,28 @@ A camada SQL foi utilizada para preparação, agregação e modelagem dos dados 
 - Top 5 Destinos
 - Evolução Temporal dos Resultados
 
+---
 
-## 📈 Resultados Obtidos
+# 📈 Principais Resultados
 
-- Receita Total: R$ 1,57 milhão
-- Lucro Operacional: R$ 1,48 milhão
-- Margem Operacional: 94,2%
-- Total de Viagens: 26
+- Receita Total: **R$ 1,57 milhão**
+- Lucro Operacional: **R$ 1,48 milhão**
+- Margem Operacional Consolidada: **94,2%**
+- Total de Viagens Monitoradas: **26**
+
+---
+
+# 🔍 Desafios Técnicos
+
+Durante o desenvolvimento do projeto foram realizadas atividades de:
+
+- Modelagem da estrutura de dados no PostgreSQL
+- Criação de métricas de receita, lucro operacional e margem operacional
+- Desenvolvimento de Views SQL para consumo analítico
+- Construção de indicadores executivos para tomada de decisão
+- Estruturação de visualizações orientadas ao negócio
+- Integração entre PostgreSQL (Neon) e Looker Studio
+- Organização e versionamento do projeto utilizando Git e GitHub
 
 ---
 
@@ -87,14 +102,15 @@ A camada SQL foi utilizada para preparação, agregação e modelagem dos dados 
 Durante o desenvolvimento deste projeto foram aplicados conceitos de:
 
 - SQL Analytics
+- PostgreSQL
 - Modelagem de Dados
 - Criação de Views Analíticas
-- PostgreSQL em Ambiente Cloud (Neon)
 - Business Intelligence
 - Storytelling com Dados
 - Desenvolvimento de Dashboards
 - Análise Exploratória de Dados
-- Analytics Engineering Fundamentals
+- Fundamentos de Analytics Engineering
+- Versionamento com Git e GitHub
 
 ---
 
@@ -107,7 +123,6 @@ transportadora-operations-analytics
 │
 ├── sql
 │   ├── create_table.sql
-│   ├── insert_data.sql
 │   └── dashboard_view.sql
 │
 ├── dashboard
@@ -138,4 +153,12 @@ Acesse a versão interativa do dashboard:
 
 **Antonio Estêvão**
 
-Projeto desenvolvido para fins de estudo, demonstração técnica e composição de portfólio profissional nas áreas de Dados, Business Intelligence e Analytics Engineering.
+Profissional em formação nas áreas de Dados, Business Intelligence e Analytics Engineering.
+
+Este projeto foi desenvolvido como parte do meu portfólio prático, aplicando conceitos de SQL Analytics, PostgreSQL, modelagem de dados e construção de dashboards executivos.
+
+---
+
+# 📌 Observação
+
+Este projeto possui finalidade educacional e demonstra a construção de uma solução analítica completa, desde a modelagem dos dados até a criação de dashboards para apoio à tomada de decisão.
