@@ -173,6 +173,28 @@ transportadora-operations-analytics
 
 ---
 
+---
+
+# 🧠 Desenvolvimento das Análises SQL
+
+Além da construção do dashboard executivo, as análises foram desenvolvidas diretamente no PostgreSQL hospedado no Neon.
+
+O ambiente SQL foi utilizado para explorar os dados, validar métricas, desenvolver consultas analíticas e gerar insights utilizados posteriormente no dashboard.
+
+Durante o projeto foram aplicadas técnicas como:
+
+- Agregações e métricas de negócio
+- Views analíticas
+- Window Functions
+- Rankings
+- Análises temporais
+- Cálculo de KPIs operacionais
+
+Exemplo de desenvolvimento das consultas no ambiente Neon:
+
+![Editor SQL Neon](docs/neon_sql_editor.png.png)
+
+
 # 🔬 Análises Exploratórias em SQL
 
 Além do dashboard executivo, o projeto inclui uma coleção de análises desenvolvidas diretamente no PostgreSQL para investigar padrões operacionais, financeiros e logísticos.
