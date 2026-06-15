@@ -111,7 +111,7 @@ transportadora-operations-analytics
 
 # 📸 Dashboard
 
-Imagem do dashboard será adicionada nesta seção.
+![Dashboard Executivo](dashboard/dashboard.png)
 
 ---
 
