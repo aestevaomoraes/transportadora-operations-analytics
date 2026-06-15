@@ -143,7 +143,14 @@ transportadora-operations-analytics
 
 # 🔗 Dashboard Online
 
-Acesse a versão interativa do dashboard:
+Devido às restrições de compartilhamento do conector utilizado no Looker Studio, a versão pública do dashboard não está disponível para acesso anônimo.
+
+Para avaliação do projeto, consulte:
+
+- 📸 Screenshot do dashboard disponível neste README
+- 📄 Versão PDF disponível na pasta `dashboard`
+- 🗄️ Scripts SQL disponíveis na pasta `sql`
+
 
 👉 [Visualizar Dashboard no Looker Studio](https://datastudio.google.com/reporting/09107122-bc34-4042-b1ea-26d81781f1ef)
 
