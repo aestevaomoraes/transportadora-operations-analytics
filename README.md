@@ -168,32 +168,11 @@ transportadora-operations-analytics
 │   └── dashboard.pdf
 │
 └── docs
-    └── arquitetura.png
+    ├── arquitetura.png
+    └── neon_sql_editor.png
 ```
 
 ---
-
----
-
-# 🧠 Desenvolvimento das Análises SQL
-
-Além da construção do dashboard executivo, as análises foram desenvolvidas diretamente no PostgreSQL hospedado no Neon.
-
-O ambiente SQL foi utilizado para explorar os dados, validar métricas, desenvolver consultas analíticas e gerar insights utilizados posteriormente no dashboard.
-
-Durante o projeto foram aplicadas técnicas como:
-
-- Agregações e métricas de negócio
-- Views analíticas
-- Window Functions
-- Rankings
-- Análises temporais
-- Cálculo de KPIs operacionais
-
-Exemplo de desenvolvimento das consultas no ambiente Neon:
-
-![Editor SQL Neon](docs/neon_sql_editor.png.png)
-
 
 # 🔬 Análises Exploratórias em SQL
 
@@ -205,6 +184,8 @@ Todas as consultas foram documentadas contendo:
 - Perguntas de negócio respondidas
 - Técnicas SQL utilizadas
 - Principais insights encontrados
+
+As análises abrangem indicadores operacionais, métricas financeiras, rankings, tendências temporais e técnicas avançadas de SQL Analytics, permitindo uma compreensão mais aprofundada do desempenho da operação.
 
 ## Consultas Analíticas
 
@@ -227,6 +208,26 @@ Todas as consultas foram documentadas contendo:
 | [15_top_rotas_por_receita.sql](sql_analysis/15_top_rotas_por_receita.sql) | Rotas com maior geração de receita |
 
 ---
+# 🧠 Desenvolvimento das Análises SQL
+
+Além da construção do dashboard executivo, as análises foram desenvolvidas diretamente no PostgreSQL hospedado no Neon.
+
+O ambiente SQL foi utilizado para explorar os dados, validar métricas, desenvolver consultas analíticas e gerar insights utilizados posteriormente no dashboard.
+
+Durante o projeto foram aplicadas técnicas como:
+
+- Agregações e métricas de negócio
+- Views analíticas
+- Window Functions
+- Rankings
+- Análises temporais
+- Cálculo de KPIs operacionais
+
+Exemplo de desenvolvimento das consultas no ambiente Neon:
+
+![Editor SQL Neon](docs/neon_sql_editor.png.png)
+
+
 
 # 📸 Dashboard
 
@@ -252,16 +253,15 @@ Caso deseje visualizar a versão online, utilize o link abaixo com uma conta Goo
 
 # ✅ Conclusão
 
-Este projeto demonstra a construção de uma solução analítica ponta a ponta, abrangendo:
+Este projeto demonstra a construção de uma solução analítica ponta a ponta utilizando PostgreSQL, SQL Analytics e Looker Studio.
 
-- Modelagem de dados
-- Desenvolvimento de consultas SQL analíticas
-- Criação de Views para consumo analítico
-- Construção de KPIs operacionais
-- Desenvolvimento de dashboard executivo
-- Documentação técnica e versionamento
+Ao longo do desenvolvimento foram aplicados conceitos de modelagem de dados, criação de métricas de negócio, desenvolvimento de consultas analíticas, Views SQL, Window Functions, construção de dashboards executivos e documentação técnica.
 
-A combinação entre análises SQL e visualizações executivas permite transformar dados operacionais em informações estratégicas para apoio à tomada de decisão.
+A combinação entre análises exploratórias em SQL e visualizações executivas permite transformar dados operacionais em informações estratégicas para apoio à tomada de decisão.
+
+Além da camada de visualização construída no Looker Studio, o projeto também evidencia competências em SQL para Business Analytics, análise exploratória, construção de KPIs e desenvolvimento de soluções analíticas orientadas ao negócio.
+
+O projeto representa uma aplicação prática de competências relacionadas às áreas de Data Analytics, Business Intelligence e Analytics Engineering.
 
 ---
 
@@ -269,9 +269,9 @@ A combinação entre análises SQL e visualizações executivas permite transfor
 
 **Antonio Estêvão**
 
-Profissional em formação nas áreas de Dados, Business Intelligence e Analytics Engineering.
+Profissional em formação nas áreas de Data Analytics, Business Intelligence e Analytics Engineering.
 
-Este projeto foi desenvolvido como parte do meu portfólio prático, aplicando conceitos de SQL Analytics, PostgreSQL, modelagem de dados e construção de dashboards executivos.
+Este projeto foi desenvolvido como parte do meu portfólio técnico, aplicando conceitos de PostgreSQL, SQL Analytics, modelagem de dados, análise exploratória e construção de dashboards executivos.
 
 ---
 
